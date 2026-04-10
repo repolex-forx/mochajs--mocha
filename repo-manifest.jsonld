@@ -891,8 +891,9 @@
     {
       "@id": "https://repolex.ai/r/mochajs/mocha/commit/640f08a20d535f7860605b2fe4c54ee1b97cec86",
       "git:hexsha": "640f08a20d535f7860605b2fe4c54ee1b97cec86",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v12.0.0-beta-9.2"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v12.0.0-beta-9.2",
+      "repolex:parsedAt": "2026-04-10T13:49:58.015859+00:00"
     },
     {
       "@id": "https://repolex.ai/r/mochajs/mocha/commit/d07bf4fa9d711614821aa6bfd3ff76db101fe6dd",
