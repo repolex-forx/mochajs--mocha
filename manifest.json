@@ -5,8 +5,8 @@
   "versions": [
     {
       "commit": "6cb27100c9a50c17a205803d343a2c369656f0ee",
-      "parsed_at": "2026-04-10T12:20:29.085026+00:00",
-      "tag": "v12.0.0-beta-10.0",
+      "parsed_at": "2026-04-10T13:38:08.951725+00:00",
+      "tag": "v12.0.0-beta-10",
       "filetree": "filetree/6cb27100c9a50c17a205803d343a2c369656f0ee.nq.gz",
       "blobs": [
         "blob/f6a8cfe6fafbc50d87866e0d2d754eb0108a7e8d.nq.gz",
