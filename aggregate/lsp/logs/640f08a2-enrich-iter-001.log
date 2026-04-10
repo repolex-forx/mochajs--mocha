@@ -1,0 +1,80 @@
+[2026-04-10T14:05:47Z] === ENRICH ITERATION 1 START | repo=mochajs/mocha sha=640f08a2 ===
+[2026-04-10T14:05:47Z] [iter=1] PHASE START: enrich repo=mochajs/mocha sha=640f08a2 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/640f08a2-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/640f08a20d535f7860605b2fe4c54ee1b97cec86.nq.gz
+[2026-04-10T14:06:26Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=81 MB
+[2026-04-10T14:06:33Z] [iter=1] AST store loaded triples=1178485 load_secs=7 mem_mb=887 MB
+[2026-04-10T14:06:33Z] [iter=1] Step 2: Finding LSP targets mem_mb=887 MB
+[2026-04-10T14:06:34Z] [iter=1] LSP targets found call_sites=14264 imports=49 extends=26 implements=0 secs=1
+[2026-04-10T14:06:35Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=887 MB
+[2026-04-10T14:06:41Z] [iter=1] Position index built positions=81820 nodes_with_types=97301 secs=7 mem_mb=887 MB
+[2026-04-10T14:06:41Z] [iter=1] Step 3: Starting LSP resolution mem_mb=887 MB already_completed_types=[] already_completed_files=0
+[2026-04-10T14:06:41Z] [iter=1] Resolving target type target_type=call_site count=14264
+[2026-04-10T14:06:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.9 files_done=0 resolved=0 errors=0 current=test/unit/suite.spec.js
+[2026-04-10T14:07:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=1 resolved=0 errors=115 current=test/integration/glob.spec.js
+[2026-04-10T14:08:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=6 resolved=2 errors=213 current=test/integration/fixtures/cascade.fixture.js
+[2026-04-10T14:09:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=9 resolved=23 errors=344 current=test/reporters/doc.spec.js
+[2026-04-10T14:10:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=13 resolved=32 errors=463 current=test/unit/throw.spec.js
+[2026-04-10T14:11:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.5 files_done=15 resolved=53 errors=553 current=test/integration/fixtures/pending/skip-sync-spec.fixture.js
+[2026-04-10T14:11:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=18 resolved=55 errors=632 current=lib/interfaces/common.js
+[2026-04-10T14:12:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.7 files_done=21 resolved=73 errors=707 current=test/unit/runnable.spec.js
+[2026-04-10T14:13:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.7 files_done=22 resolved=92 errors=832 current=test/integration/fixtures/parallel/getter-error-object.mjs
+[2026-04-10T14:14:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=25 resolved=101 errors=965 current=test/node-unit/buffered-worker-pool.spec.js
+[2026-04-10T14:15:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.0 files_done=27 resolved=103 errors=1112 current=test/unit/runner.spec.js
+[2026-04-10T14:17:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.9 files_done=28 resolved=108 errors=1358 current=test/integration/events.spec.js
+[2026-04-10T14:18:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.5 files_done=32 resolved=108 errors=1432 current=lib/reporters/nyan.js
+[2026-04-10T14:19:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.4 files_done=34 resolved=115 errors=1544 current=test/integration/fixtures/timeout.fixture.js
+[2026-04-10T14:21:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.5 files_done=36 resolved=122 errors=1797 current=test/integration/fixtures/options/delay-only.fixture.js
+[2026-04-10T14:21:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.2 files_done=39 resolved=123 errors=1887 current=lib/suite.js
+[2026-04-10T14:22:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.0 files_done=40 resolved=132 errors=1991 current=test/integration/options/timeout.spec.js
+[2026-04-10T14:23:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.7 files_done=42 resolved=132 errors=2077 current=test/integration/options/ignore.spec.js
+[2026-04-10T14:25:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=45 resolved=132 errors=2337 current=lib/nodejs/reporters/parallel-buffered.js
+[2026-04-10T14:26:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.6 files_done=47 resolved=136 errors=2433 current=lib/cli/collect-files.js
+[2026-04-10T14:27:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.9 files_done=49 resolved=148 errors=2601 current=test/integration/fixtures/options/only/qunit.fixture.js
+[2026-04-10T14:28:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.7 files_done=53 resolved=180 errors=2701 current=test/integration/fixtures/hooks/before-hook-error.fixture.js
+[2026-04-10T14:29:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.3 files_done=58 resolved=220 errors=2776 current=lib/cli/watch-run.js
+[2026-04-10T14:29:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.1 files_done=59 resolved=227 errors=2877 current=test/integration/fixtures/hooks/before-hook-async-error.fixture.js
+[2026-04-10T14:30:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.1 files_done=62 resolved=246 errors=2994 current=test/node-unit/worker.spec.js
+[2026-04-10T14:31:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.7 files_done=65 resolved=251 errors=3066 current=test/integration/retries.spec.js
+[2026-04-10T14:33:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.1 files_done=68 resolved=253 errors=3377 current=test/node-unit/parallel-buffered-runner.spec.js
+[2026-04-10T14:34:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.8 files_done=69 resolved=253 errors=3454 current=test/integration/options/parallel.spec.js
+[2026-04-10T14:35:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.3 files_done=70 resolved=262 errors=3519 current=test/integration/fixtures/hooks/before-hook-throw-non-error.fixture.js
+[2026-04-10T14:36:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.8 files_done=72 resolved=262 errors=3708 current=test/integration/options/ui.spec.js
+[2026-04-10T14:37:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.5 files_done=77 resolved=262 errors=3789 current=lib/cli/config.js
+[2026-04-10T14:37:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.1 files_done=84 resolved=272 errors=3871 current=test/integration/fixtures/pending/skip-sync-beforeEach-cond.fixture.js
+[2026-04-10T14:38:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.8 files_done=91 resolved=280 errors=3955 current=test/unit/grep.spec.js
+[2026-04-10T14:39:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.8 files_done=94 resolved=287 errors=4086 current=test/node-unit/cli/run-helpers.spec.js
+[2026-04-10T14:40:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.4 files_done=100 resolved=288 errors=4149 current=test/integration/hook-err.spec.js
+[2026-04-10T14:40:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.0 files_done=103 resolved=294 errors=4224 current=lib/hook.js
+[2026-04-10T14:41:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.7 files_done=106 resolved=295 errors=4313 current=test/node-unit/cli/run.spec.js
+[2026-04-10T14:42:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.4 files_done=110 resolved=312 errors=4409 current=lib/reporters/json-stream.js
+[2026-04-10T14:42:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.1 files_done=115 resolved=329 errors=4485 current=test/integration/fixtures/common-js-require.fixture.js
+[2026-04-10T14:43:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.7 files_done=118 resolved=344 errors=4565 current=lib/context.js
+[2026-04-10T14:44:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.3 files_done=125 resolved=390 errors=4638 current=test/integration/fixtures/hooks/before-hook-error-with-fail-affected.fixture.js
+[2026-04-10T14:44:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.9 files_done=130 resolved=396 errors=4719 current=test/integration/reporters.spec.js
+[2026-04-10T14:45:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.5 files_done=132 resolved=398 errors=4789 current=test/integration/fixtures/failing-sync.fixture.js
+[2026-04-10T14:45:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.0 files_done=136 resolved=398 errors=4854 current=test/integration/fixtures/options/forbid-pending/beforeEach-this-skip.fixture.js
+[2026-04-10T14:46:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.6 files_done=139 resolved=402 errors=4923 current=test/node-unit/stack-trace-filter.spec.js
+[2026-04-10T14:46:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.1 files_done=143 resolved=404 errors=4987 current=test/integration/options/posixExitCodes.spec.js
+[2026-04-10T14:47:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.8 files_done=146 resolved=408 errors=5070 current=test/compiler-fixtures/js.fixture.js
+[2026-04-10T14:48:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.3 files_done=156 resolved=413 errors=5139 current=test/integration/fixtures/hooks/before-each-hook-throw-non-error.fixture.js
+[2026-04-10T14:48:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.1 files_done=167 resolved=434 errors=5234 current=test/integration/fixtures/hooks/after-hook-deepnested-error.fixture.js
+[2026-04-10T14:49:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.8 files_done=180 resolved=441 errors=5329 current=lib/cli/cli.js
+[2026-04-10T14:50:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.6 files_done=186 resolved=445 errors=5421 current=test/integration/fixtures/hooks/before-hook-error-tip.fixture.js
+[2026-04-10T14:50:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.1 files_done=199 resolved=452 errors=5491 current=test/only/global/qunit.spec.js
+[2026-04-10T14:51:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.0 files_done=210 resolved=463 errors=5593 current=test/integration/fixtures/pending/skip-async-before.fixture.js
+[2026-04-10T14:52:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.5 files_done=228 resolved=475 errors=5660 current=test/integration/fixtures/options/file-alpha.fixture.js
+[2026-04-10T14:52:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.2 files_done=237 resolved=492 errors=5739 current=test/jsapi/index.js
+[2026-04-10T14:53:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.7 files_done=240 resolved=499 errors=5803 current=lib/test.js
+[2026-04-10T14:54:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.4 files_done=247 resolved=503 errors=5889 current=lib/reporters/index.js
+[2026-04-10T14:54:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.9 files_done=271 resolved=527 errors=5953 current=lib/interfaces/exports.js
+[2026-04-10T14:55:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.5 files_done=286 resolved=540 errors=6026 current=test/integration/fixtures/exit.fixture.js
+[2026-04-10T14:55:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.0 files_done=298 resolved=544 errors=6090 current=test/integration/fixtures/multiple-done.fixture.js
+[2026-04-10T14:56:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.6 files_done=324 resolved=566 errors=6159 current=test/compiler-fixtures/ts.fixture.js
+[2026-04-10T14:56:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.1 files_done=364 resolved=601 errors=6221 current=test/integration/fixtures/uncaught/issue-1417.fixture.js
+[2026-04-10T14:57:11Z] [iter=1] Target type resolved target_type=call_site resolved=629 errors=6253 secs=3030 mem_mb=887 MB
+[2026-04-10T14:57:11Z] [iter=1] Resolving target type target_type=import_statement count=49
+[2026-04-10T14:57:15Z] [iter=1] Target type resolved target_type=import_statement resolved=23 errors=0 secs=4 mem_mb=887 MB
+[2026-04-10T14:57:15Z] [iter=1] Resolving target type target_type=extends_clause count=26
+[2026-04-10T14:57:18Z] [iter=1] Target type resolved target_type=extends_clause resolved=26 errors=0 secs=4 mem_mb=887 MB
+[2026-04-10T14:57:27Z] [iter=1] Step 5: Writing final enrichment file triples=92974
+[2026-04-10T14:57:29Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/640f08a20d535f7860605b2fe4c54ee1b97cec86.nq.gz size_kb=2125
+[2026-04-10T14:57:29Z] [iter=1] PHASE END: enrich elapsed_s=3102 elapsed_min=51.7 total_triples=92974
