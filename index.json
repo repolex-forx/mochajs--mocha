@@ -1,5 +1,16 @@
 {
   "org": "mochajs",
   "repo": "mocha",
-  "versions": []
+  "versions": [
+    {
+      "commit": "6cb27100c9a50c17a205803d343a2c369656f0ee",
+      "tag": "v12.0.0-beta-10",
+      "parsed_at": "2026-09-27T07:05:16.834441+00:00"
+    },
+    {
+      "commit": "640f08a20d535f7860605b2fe4c54ee1b97cec86",
+      "tag": "v12.0.0-beta-9.2",
+      "parsed_at": "2026-04-10T13:49:58.015550+00:00"
+    }
+  ]
 }
